@@ -4,24 +4,13 @@ A dark theme for [bat](https://github.com/sharkdp/bat) based on the [cyberdream.
 
 ## Color Palette
 
-- **Background**: `#16181a` - dark background
-- **Foreground**: `#ffffff` - white text
-- **Blue**: `#5ea1ff` - functions
-- **Green**: `#5eff6c` - strings
-- **Cyan**: `#5ef1ff` - operators, links
-- **Red**: `#ff6e5e` - errors, deletions
-- **Yellow**: `#f1ff5e` - classes, types
-- **Magenta**: `#ff5ef1` - keywords
-- **Pink**: `#ff5ea0` - tags
-- **Orange**: `#ffbd5e` - numbers, constants
-- **Purple**: `#bd5eff` - constants
-- **Grey**: `#7b8496` - comments
+![Palette](assets/palette.png)
 
 ## Installation
 
 ### 1. Locate your bat config directory
 
-```bash
+```sh
 bat --config-dir
 ```
 
@@ -32,19 +21,19 @@ This typically returns:
 
 ### 2. Create the themes directory (if it doesn't exist)
 
-```bash
+```sh
 mkdir -p "$(bat --config-dir)/themes"
 ```
 
 ### 3. Copy the theme file
 
-```bash
+```sh
 cp cyberdream.tmTheme "$(bat --config-dir)/themes/"
 ```
 
 ### 4. Rebuild bat's cache
 
-```bash
+```sh
 bat cache --build
 ```
 
@@ -53,7 +42,7 @@ bat cache --build
 You can use the theme in several ways:
 
 **Temporarily (one-time use):**
-```bash
+```sh
 bat --theme=Cyberdream yourfile.txt
 ```
 
@@ -76,19 +65,19 @@ set -gx BAT_THEME Cyberdream
 ## Verification
 
 To see all available themes including Cyberdream:
-```bash
+```sh
 bat --list-themes
 ```
 
 To preview the theme:
-```bash
+```sh
 bat --theme=Cyberdream --list-themes
 ```
 
 ## Screenshots
 
 Try viewing different file types to see the theme in action:
-```bash
+```sh
 bat --theme=Cyberdream example.py
 bat --theme=Cyberdream example.js
 bat --theme=Cyberdream example.md
