@@ -4,18 +4,18 @@ A dark theme for [bat](https://github.com/sharkdp/bat) based on the [cyberdream.
 
 ## Color Palette
 
-- **Background**: `#16181a`
-- **Foreground**: `#ffffff`
-- **Blue**: `#5ea1ff` (functions)
-- **Green**: `#5eff6c` (strings)
-- **Cyan**: `#5ef1ff` (operators, links)
-- **Red**: `#ff6e5e` (errors, deletions)
-- **Yellow**: `#f1ff5e` (classes, types)
-- **Magenta**: `#ff5ef1` (keywords)
-- **Pink**: `#ff5ea0` (tags)
-- **Orange**: `#ffbd5e` (numbers, constants)
-- **Purple**: `#bd5eff` (constants)
-- **Grey**: `#7b8496` (comments)
+- **Background**: `#16181a` - dark background
+- **Foreground**: `#ffffff` - white text
+- **Blue**: `#5ea1ff` - functions
+- **Green**: `#5eff6c` - strings
+- **Cyan**: `#5ef1ff` - operators, links
+- **Red**: `#ff6e5e` - errors, deletions
+- **Yellow**: `#f1ff5e` - classes, types
+- **Magenta**: `#ff5ef1` - keywords
+- **Pink**: `#ff5ea0` - tags
+- **Orange**: `#ffbd5e` - numbers, constants
+- **Purple**: `#bd5eff` - constants
+- **Grey**: `#7b8496` - comments
 
 ## Installation
 
